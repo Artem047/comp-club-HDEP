@@ -218,7 +218,7 @@ a{
   /* 4 */
   
 .parallax{
-   background: url(images/registr1.jpg); /*Здесь мы задаем фон*/
+   background: url(../images/registr1.jpg); /*Здесь мы задаем фон*/
     background-repeat: no-repeat; /*Запрещаем повтор изображения на фоне, для того что бы при уменьшении не было других копий фона*/
     background-position: center; /*Центрируем фон*/
     background-size: cover; /*Указываем что наш фон будет РАВНОМЕРНО заполнять блок*/
@@ -226,7 +226,7 @@ a{
     padding: 0 0 50vh 0; /*Здесь общая сумма отступа сверху и снизу должна составлять 100, для того что бы блок занимал всю высоту экрана*/
 }  
 .parallax2{
-    background: url(images/tourn.jpg);
+    background: url(../images/tourn.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

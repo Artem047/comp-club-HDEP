@@ -197,7 +197,7 @@ position: relative;
 /* 4 */
 
 .parallax{
- background: url(images/vitr.jpg); /*Здесь мы задаем фон*/
+ background: url(../images/vitr.jpg); /*Здесь мы задаем фон*/
   background-repeat: no-repeat; /*Запрещаем повтор изображения на фоне, для того что бы при уменьшении не было других копий фона*/
   background-position: center; /*Центрируем фон*/
   background-size: cover; /*Указываем что наш фон будет РАВНОМЕРНО заполнять блок*/
@@ -205,7 +205,7 @@ position: relative;
   padding: 0 0 20vh 0; /*Здесь общая сумма отступа сверху и снизу должна составлять 100, для того что бы блок занимал всю высоту экрана*/
 }  
 .parallax2{
-  background: url(images/vitr2.jpg);
+  background: url(../images/vitr2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

@@ -1,5 +1,5 @@
 html, body{
-  background-image: url(images/mainback.png);
+  background-image: url(../images/mainback.png);
   height: 930px;
   font-family: 'Cyber', sans-serif;
   margin: 0;
@@ -16,7 +16,7 @@ html, body{
 }
 
 body{
-  background-image: url('images/background1.png'), url('images/background2.png'), url('images/background3.png');
+  background-image: url('../images/background1.png'), url('../images/background2.png'), url('../images/background3.png');
   animation: snow 30s linear infinite;
   width: 100%;
   height: 100%;
@@ -31,7 +31,7 @@ body:after {
   top: 0;
   bottom: 0;
   content: "";
-  background-image: url(images/newyear.png);
+  background-image: url(../images/newyear.png);
   background-repeat: no-repeat;
   background-size: 20% 80%;
   z-index: -1;
