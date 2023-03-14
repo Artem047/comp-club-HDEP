@@ -1,0 +1,287 @@
+
+@font-face {
+  font-family: Cyber;
+  src: url("https://assets.codepen.io/605876/Blender-Pro-Bold.otf");
+  font-display: swap;
+}
+
+
+body {
+  /*
+  position: relative;
+  background-image: url(images/tourn.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;*/
+  font-family: 'Cyber', sans-serif;
+  margin: 0;
+}
+/*body:after {
+position: absolute;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+content: "";
+background-image: url(newyear.png); 
+background-size: 100% 100%;
+opacity: 0.5;
+z-index: -1;
+}*/
+.nav{
+width: 100%;
+position: fixed;
+top: 0;
+display: flex;
+justify-content: space-between;
+background-color: rgba(0, 0, 0, 0.788);
+}
+.nav li{
+  display: list-item;
+}
+.nav img{
+  width: 150px;
+  padding-left: 100px;
+}
+.nav b{
+  padding-left: 80px;
+}
+.menu-list{
+  display: flex;
+  padding-left: 170px;
+}
+.menu-list li  .hdep{
+  color: aliceblue;
+  font-size: 50px;
+}
+.menu-list  li .arena{
+  color: aliceblue;
+  font-size: 30px;
+}
+ul{
+  list-style: none;
+}
+.menu-list-right{
+  display: flex;
+  column-gap: 90px;
+  padding-right: 312px;
+  padding-top: 50px;
+}
+.menu-list-right li a{
+  color: aliceblue;
+  font-size: 30px;
+}
+a{
+  text-decoration: none;
+}
+.back{
+  background-color: rgba(0, 0, 0, 0.622);
+  width: 400px;
+  border-radius: 20px;
+  padding: 20px;
+  color: aliceblue;
+}
+
+#footer{
+position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: black;
+  border-top: 2px solid purple;
+}
+.foot-left{
+  display: flex;
+  padding-left: 250px;
+}
+.foot-left ul li{
+  color: aliceblue;
+  margin-right: 100px;
+}
+.foot-left ul li b{
+  font-size: 20px;
+}
+.foot-left ul li p{
+  font-size: 15px;
+}
+.custom-btn {
+  margin-top: 10px;
+  margin-left: 1080px;
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+/* 3 */
+.btn-3 {
+  background: rgb(111, 0, 238);
+  background: linear-gradient(0deg, rgb(190, 0, 238) 0%, rgb(91, 0, 175) 100%);
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  
+}
+.btn-3 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-3:before,
+.btn-3:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+   background: rgb(2, 27, 251);
+  transition: all 0.3s ease;
+}
+.btn-3:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-3:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-3:hover{
+   background: transparent;
+  box-shadow: none;
+}
+.btn-3:hover:before {
+  height: 100%;
+}
+.btn-3:hover:after {
+  width: 100%;
+}
+.btn-3 span:hover{
+   color: rgb(255, 255, 255);
+}
+.btn-3 span:before,
+.btn-3 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+   background: rgb(68, 2, 251);
+  transition: all 0.3s ease;
+}
+.btn-3 span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-3 span:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-3 span:hover:before {
+  height: 100%;
+}
+.btn-3 span:hover:after {
+  width: 100%;
+}
+
+/* 4 */
+
+.parallax{
+ background: url(images/vitr.jpg); /*Здесь мы задаем фон*/
+  background-repeat: no-repeat; /*Запрещаем повтор изображения на фоне, для того что бы при уменьшении не было других копий фона*/
+  background-position: center; /*Центрируем фон*/
+  background-size: cover; /*Указываем что наш фон будет РАВНОМЕРНО заполнять блок*/
+  background-attachment: fixed; /*Самое главное свойство которое и дает нам эффект параллакса*/
+  padding: 0 0 20vh 0; /*Здесь общая сумма отступа сверху и снизу должна составлять 100, для того что бы блок занимал всю высоту экрана*/
+}  
+.parallax2{
+  background: url(images/vitr2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 1000px;
+}
+.content1{
+width: 100%;
+padding-top: 200px;
+}
+table{
+  padding-left: 200px;
+}
+table tr td img{
+  background-color: rgba(128, 128, 128, 0.842);
+  border-radius: 20px;
+}
+table tr td img:hover{
+  background-color: rgba(44, 223, 255, 0.842);
+}
+table tr td{
+  padding: 20px 150px;
+}
+table tr td b{
+  background-color: rgba(255, 255, 255, 0.89);
+  font-size: 30px;
+}
+imetable-block {
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+padding: 20px 50px 20px;
+background: rgba(43,45,51,.9);
+margin: 8px 400px;
+color: #fff;
+}
+.social-icons {
+text-align: center;
+}  
+.social-icons li {
+list-style-type:none;
+margin-right: 10px;
+}
+.social-icons li a {
+border-bottom: none;
+}
+.social-icons li img {
+width:30px;
+height:30px;
+margin-right: 0px;
+border-radius: 20px;
+}
+a{
+text-decoration: none;
+color: aliceblue;
+}
+.timetable-block:hover {
+
+box-shadow:
+
+  1px 1px #00ff0d,
+
+  2px 2px #00ff0d,
+
+  3px 3px #00ff0d,
+
+  4px 4px #00ff0d,
+
+  5px 5px #00ff0d,
+
+  6px 6px #00ff0d,
+
+  7px 7px #00ff0d;
+
+-webkit-transform: translateX(-7px);
+
+transform: translateX(-7px);
+
+}
